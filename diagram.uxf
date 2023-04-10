@@ -1,0 +1,57 @@
+<diagram program="umletino" version="15.0.0"><zoom_level>10</zoom_level><element><id>UMLClass</id><coordinates><x>430</x><y>20</y><w>210</w><h>40</h></coordinates><panel_attributes>Main
+Package: src.ExploreCity</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>430</x><y>130</y><w>210</w><h>70</h></coordinates><panel_attributes>ExploreCity
+Package: src.ExploreCity
+--
+ArrayList&lt;osoba&gt; osoby;
+ArrayList&lt;objednavka&gt; objednavky</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>300</x><y>290</y><w>210</w><h>90</h></coordinates><panel_attributes>Osoba
+--
+Package: src.ExploreCity.osoby
+--
+String Meno;
+String Priezvisko;
+String Heslo;
+
+
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>130</y><w>210</w><h>110</h></coordinates><panel_attributes>Admin
+extends Osoba
+--
+String Meno;
+String Priezvisko;
+String Heslo;
+--
+odstranObjednavku();</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>280</y><w>210</w><h>110</h></coordinates><panel_attributes>Pracovnik
+extends Osoba
+--
+String Meno;
+String Priezvisko;
+String Heslo;
+--
+nahrajMapu();
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>40</x><y>440</y><w>210</w><h>120</h></coordinates><panel_attributes>Zakaznik
+extends Osoba
+--
+String Meno;
+String Priezvisko;
+String Heslo;
+--
+vytvorObjednavku();
+stornujObjednavku();
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>270</y><w>220</w><h>160</h></coordinates><panel_attributes>Objednavka
+--
+Package: src.ExploreCity.objednavky
+--
+String Mesto;
+boolean Platnost;
+boolean Kostol;
+boolean Restauracia;
+boolean Muzeum;
+String niecoIne;
+--
+vymazSa();</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>50</y><w>30</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>400</x><y>190</y><w>160</w><h>120</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;100;140;10</additional_attributes></element><element><id>Relation</id><coordinates><x>530</x><y>190</y><w>140</w><h>100</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>120;80;10;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>230</y><w>80</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;110</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>330</y><w>80</w><h>30</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;10;60;10</additional_attributes></element><element><id>Relation</id><coordinates><x>240</x><y>330</y><w>80</w><h>130</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;110;60;10</additional_attributes></element><element><id>UMLClass</id><coordinates><x>570</x><y>470</y><w>220</w><h>90</h></coordinates><panel_attributes>Mapa
+--
+Package: src.ExploreCity.objednavky
+--
+String Mesto;
+String menoZakaznika;
+int ID;
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>670</x><y>420</y><w>30</w><h>70</h></coordinates><panel_attributes>lt=&lt;&lt;-</panel_attributes><additional_attributes>10;50;10;10</additional_attributes></element></diagram>
