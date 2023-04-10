@@ -1,2 +1,2 @@
-1 Stare Mesto true true true true true true ahoj
-1 Stare Mesto true true true false false true 
+1   true true true true false false 
+1 Stare Mesto true true true true false false 
