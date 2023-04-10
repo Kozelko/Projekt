@@ -6,20 +6,6 @@
     "configurations": [
         {
             "type": "java",
-            "name": "App",
-            "request": "launch",
-            "mainClass": "App",
-            "projectName": "Projekt_6ee7b4fb"
-        },
-        {
-            "type": "java",
-            "name": "ExploreCity",
-            "request": "launch",
-            "mainClass": "ExploreCity.ExploreCity",
-            "projectName": "Projekt_6ee7b4fb"
-        },
-        {
-            "type": "java",
             "name": "ExploreCity",
             "request": "launch",
             "mainClass": "ExploreCity",
@@ -33,9 +19,9 @@
         },
         {
             "type": "java",
-            "name": "ExploreCity",
+            "name": "Launch App",
             "request": "launch",
-            "mainClass": "ExploreCity.ExploreCity",
+            "mainClass": "App",
             "projectName": "Projekt_6ee7b4fb",
             "vmArgs": "--module-path \"C:/Java/javafx-sdk-17.0.6/lib\" --add-modules javafx.controls,javafx.fxml"
         }
